@@ -1,0 +1,121 @@
+body{
+  background-color: rgb(108, 83, 129);
+  text-align: center;
+}
+
+.mascotas {
+  display: flex;         
+  gap: 10px;            
+  justify-content: center; 
+}
+
+.mascotas img {
+  width: 150px;  
+}
+
+h1{
+  background-image: url("img/fondo.jpg");
+  color: rgb(2, 53, 173);
+  text-align: center;
+  font-size: 40px;
+}
+
+.yo{
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.habilidad{
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+  font-size: 12px;
+  color: rgb(9, 9, 9);
+  text-align: center;
+}
+
+.primera{
+  color: rgb(3, 22, 61);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.galeria {
+  display: flex;         
+  gap: 10px;            
+  justify-content: center; 
+}
+
+.galeria img {
+  width: 150px;        
+}
+
+.segunda{
+  color: rgb(2, 19, 41);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.galeria2 {
+  display: flex;         
+  gap: 10px;            
+  justify-content: center; 
+}
+
+.galeria2 img {
+  width: 150px;        
+}
+
+.tercera{
+  background-image: url("img/fondo.jpg");
+  color: aquamarine;
+  text-shadow: black 3px 3px 10px;
+  text-shadow:
+  0 1px 0 black,
+  0 -1px 0 black,
+  1px 0 0 black,
+  -1px 0 0 black,
+  0 0 5px black;
+  text-align: center;
+}
+
+.cosas {
+  display: flex;         
+  gap: 10px;            
+  justify-content: center; 
+}
+
+.cosas img {
+  width: 210px;        
+}
+
+.contacto{
+  background-image: url("img/fondo.jpg");
+  color: rgb(16, 1, 94);
+  text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px  1px 0 black;
+  text-align: center;
+}
+
+.square {
+  background-image: url("img/fondo2.jpg");
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;   
+  padding: 20px;                 
+  border-radius: 10px;           
+  color: white; 
+  text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px  1px 0 black;
+}
+
+.square a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.square a:hover {
+  color: #000000;
+}
